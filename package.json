@@ -1,0 +1,32 @@
+{
+  "name": "controlled-string",
+  "version": "0.0.1",
+  "description": "Abstracted input operations on strings. Reversible masks supported.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbambusek/controlled-string.git"
+  },
+  "keywords": [
+    "string",
+    "input",
+    "mask"
+  ],
+  "author": "Petr Bambušek <petr.bambusek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbambusek/controlled-string/issues"
+  },
+  "homepage": "https://github.com/pbambusek/controlled-string#readme",
+  "devDependencies": {
+    "babel-core": "6.4.5",
+    "babel-eslint": "4.1.8",
+    "babel-preset-es2015": "6.3.13",
+    "chai": "3.5.0",
+    "eslint": "1.10.3",
+    "mocha": "2.4.5"
+  }
+}
